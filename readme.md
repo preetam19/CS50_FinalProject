@@ -2,8 +2,7 @@
 
 
 CryptoBook is a web app implemented using Flask, sqlite and bootstrap and library
-beautifulsoup. Cryptobook is more like a book keeper of
-all your cryptocurrency transactions. 
+beautifulsoup. 
 
 The following functionalities have been added to the app:
 
