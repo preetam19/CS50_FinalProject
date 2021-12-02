@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+    <link rel="stylesheet" href="https://cdn.datatables.net/1.10.22/css/dataTables.bootstrap5.min.css">
+
+        <link rel=" stylesheet" type="text/css" href="static/css/table.css">
+    <link rel="stylesheet" href="static/css/main.css">
+    <link rel="stylesheet" href=https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
+  <title>Market</title>
+</head>
+<body>
+<!--        <h1> Registrants</h1>-->
+<!--        <ul>-->
+<!--            {% for row in rows %}-->
+
+<!--            <li>{{row["username"]}}-->
+<!--            </li>-->
+<!--            {% endfor %}-->
+<!--        </ul>-->
+
+
+            <div class="crypto">
+<!--                <embed type="image/svg+xml" src="book-open-solid.svg">-->
+
+
+                <a > CryptoBook </a>
+            </div>
+
+
+            <div class="section" >
+                <nav>
+                <ul class="section_box">
+                    <li ><a href="about.html">About</a></li>
+
+                    <li><a href="market.html">Market</a>
+
+
+
+
+
+
+                    </li>
+
+
+                    <li><a href="buy.html">Buy</a></li>
+
+                    <li><a href="sell.html">Sell</a></li>
+
+                    <li ><a href="history.html">History</a></li>
+                </ul>
+
+                </nav>
+            </div>
+  <table id="market" class="content-table">
+      <thead>
+    <tr class="tb_info">
+        {% for i in header %}
+        <th>
+          {{ i }}
+        </th>
+        {% endfor %}
+    </tr>
+      </thead>
+
+      {% for row in data %}
+
+      <tr>
+        {% for cell in row %}
+
+         <td> {{ cell }} </td>
+
+
+        {% endfor %}
+
+
+      </tr>
+
+      {% endfor %}
+
+  </table>
+
+     <script src="https://cdn.datatables.net/1.10.22/js/jquery.dataTables.min.js"></script>
+     <script src="https://cdn.datatables.net/1.10.22/js/dataTables.bootstrap5.min.js"></script>
+    <script>
+        $(document).ready(function() {
+    $('#market').DataTable({
+
+    "paging":   false,
+    "info":     false});
+} );
+
+    </script>
+</body>
+
+
+</html>

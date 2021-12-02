@@ -1,0 +1,173 @@
+@import "https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css";
+@import url('https://fonts.googleapis.com/css?family=Poppins:400,700,900');
+
+body
+{
+
+    margin: 0;
+    padding: 0;
+    font-family: "sans-serif";
+    background: url("crypto.jpg") no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+
+}
+.login-box{
+    width: 280px;
+    position: absolute;
+    top: 14%;
+    left: 50%;
+    transform: translate(50%,50%);
+    color: whitesmoke;
+
+}
+.currency{
+width: 100%;
+    overflow: hidden;
+    font-size: 15px;
+    padding: 6px;
+    margin: 8px;
+    border-bottom: 0.5px solid #ffffff;}
+
+.button_mod{
+   width: 130px;
+    background: none;
+    border:2px solid ;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 30px 0 ;
+}
+
+.login-box h1{
+    color: #ffffff;
+    font-size: 40px;
+    border-bottom: 6px solid #ffffff;
+    margin-bottom: 20px;
+    padding: 10px;
+
+}
+.textbook{
+
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px;
+    margin: 8px;
+    border-bottom: 1px solid #ffffff;
+
+}
+.textbook i{
+    width: 26px;
+    float: left;
+    text-align: center ;
+}
+.textbook input{
+    border: none;
+    outline: none;
+    background: none;
+    color: white;
+    margin: 0 5px;
+    font-size: 20px;
+    width:200px;
+
+}
+.btn{
+    width: 100px;
+    background: none;
+    border:2px solid ;
+    color: white;
+    padding: 5px;
+    font-size: 15px;
+    cursor: pointer;
+    margin: 14px 0 ;
+}
+a{
+    font-size: 20px;
+    text-decoration: None;
+    color: white;
+    padding: 10px;
+    margin: 0px;
+    /*background-color: #111111;*/
+}
+
+.section_box{
+    display: flex;
+    list-style-type: none;
+    margin: 0px;
+    padding: 10px 10px;
+    background-color: #111111;
+    box-sizing: border-box;
+
+
+}
+.section li{
+     margin: 5px;
+    padding: 28px 20px;
+
+
+}
+.crypto i{
+    background: white;
+
+}
+.crypto{
+    position: absolute;
+    font-family: Poppins;
+    top: 0;
+    right:0;
+    margin: 0;
+    padding: 30px;
+
+}
+.crypto a{
+    font-size: 35px;
+    color: white;
+}
+
+.section_box li:hover
+{
+    background: grey;
+    border-radius: 3px;
+}
+.section_tag{
+    display: none;
+}
+/*.section_tag a{*/
+/*    font-size: 25px;*/
+/*}*/
+.section_box li:hover .section_tag{
+    display: block;
+    position: absolute;
+    background-color: #111111;
+    margin-top: 15px;
+    margin-left: -15px;
+
+}
+
+.section_box li:hover .section_tag ul{
+    display: block;
+    margin: 10px;
+}
+
+.section_box li:hover .section_tag ul li{
+    width: 150px;
+    padding: 10px;
+    border-bottom: 1px solid grey;
+    border-radius: 0;
+    text-align: left ;
+}
+
+.section_box li:hover .section_tag ul li:last-child {
+    border-bottom: none;
+}
+.about_text{
+    font-size: 30px;
+    color: white;
+    position: absolute;
+    top: 30%;
+    right: 50%;
+    transform: translate(-40%,50%);
+
+}

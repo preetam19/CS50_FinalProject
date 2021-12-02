@@ -1,0 +1,58 @@
+.col-5{
+position: absolute;
+right:60%;
+top:30%
+}
+.col-6{
+position: absolute;
+ top: 34%;
+    left: 60%;
+    transform: translate(50%,50%);
+    color: whitesmoke;
+}
+
+body{
+
+background: url("image.png") no-repeat;
+    background-size: cover;
+    box-sizing: border-box;
+    }
+
+    .textbook_new{
+
+    width: 100%;
+    overflow: hidden;
+    font-size: 20px;
+    padding: 8px;
+    margin: 8px;
+    border-bottom: 1px solid #ffffff;
+
+}
+.textbook_new i{
+    width: 26px;
+    float: left;
+    text-align: center ;
+}
+.textbook_new input{
+    border: none;
+    outline: none;
+    background: none;
+
+    margin: 0 5px;
+    font-size: 20px;
+    width:200px;
+    color: black;
+}
+
+
+.buy-box{
+
+    width: 300px;
+    position: absolute;
+    top: 30%;
+    right: 75%;
+    padding:10 px;
+    transform: translate(50%,50%);
+    color: black;
+
+}

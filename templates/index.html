@@ -1,0 +1,38 @@
+{% extends "base.html" %}
+
+
+{% block head %}
+<Header class="header_title" xmlns="http://www.w3.org/1999/html">
+Your daily Crypto Page
+</Header>
+
+<header class="title1">
+
+  <nav>
+   <a href="about.html">About</a>
+
+   <a href="market.html">Market</a>
+
+   <a href="crypto.html">Crypto</a>
+    <a href="buy.html">Buy</a>
+
+   <a href="sell.html">Sell</a>
+
+   <a href="history.html">History</a>
+
+   </nav>
+
+</header>
+
+{% endblock %}
+
+{% block body %}
+
+<h3 class="login_text"> Login Details</h3>
+<form action="" class="login_bar">
+ <nav ><input type = "text" name ="email" placeholder="Email"> </nav>
+ <input type = "text" name = "password" placeholder="Password">
+ <nav><input type = "submit" placeholder="Login"></nav>
+</form>
+
+{% endblock %}

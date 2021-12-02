@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <title>Crypto Book</title>
+            <link rel="stylesheet" href="static/css/main.css">
+            <link rel="stylesheet" href=https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+        </head>
+
+        <body>
+<!--        <h1> Registrants</h1>-->
+<!--        <ul>-->
+<!--            {% for row in rows %}-->
+
+<!--            <li>{{row["username"]}}-->
+<!--            </li>-->
+<!--            {% endfor %}-->
+<!--        </ul>-->
+
+
+            <div class="crypto">
+<!--                <embed type="image/svg+xml" src="book-open-solid.svg">-->
+
+
+                <a > CryptoBook </a>
+            </div>
+
+
+            <div class="section" >
+                <nav>
+                <ul class="section_box">
+                    <li ><a href="about.html">About</a></li>
+
+                    <li><a href="market.html">Market</a>
+
+
+
+                    </li>
+
+
+                    <li><a href="buy.html">Buy</a></li>
+
+                    <li><a href="sell.html">Sell</a></li>
+
+                    <li ><a href="history.html">History</a></li>
+                    <li > <a href="/logout">Logout</a></li>
+                </ul>
+
+                </nav>
+            </div>
+
+        <div class="content">
+        {% block content%} {% endblock%}
+    </div>
+
+            </body>
+</html>
